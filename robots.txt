@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+
+# Les fichiers techniques et les ressources de session ne sont pas destinés à l'indexation.
+Disallow: /.git/
+Disallow: /.copilot/
+Sitemap: https://rodrigue-djomeni.vercel.app/sitemap.xml
