@@ -1,7 +1,7 @@
-# Cabinet Juris
+# Cabinet 
 
-Site vitrine du Cabinet Juris, cabinet juridique situé à Bonamoussadi, Douala, au Cameroun.
-
+Site vitrine de l'avocat RODRIGUE DJOMENI DJOYA , cabinet juridique situé à Bonamoussadi, Douala, au Cameroun.
+![photo de l'avocat](avocat-portrait.png)
 ## Contenu du site
 
 - Présentation du cabinet et de son approche.
