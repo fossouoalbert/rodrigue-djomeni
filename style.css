@@ -3,8 +3,8 @@
   --dark:#101820; --gold:#b38a45; --border:#e3dfd6; --shadow:0 24px 70px rgba(15,24,32,.10);
 }
 body.dark {
-  --bg:#0d1216; --surface:#141b20; --text:#f3f1eb; --muted:#a9b0b5;
-  --dark:#f3f1eb; --border:#293238; --shadow:0 24px 70px rgba(0,0,0,.30);
+  --bg:#0d1726; --surface:#142238; --text:#eef5ff; --muted:#a9b9cc;
+  --dark:#eef5ff; --border:#2a405b; --shadow:0 24px 70px rgba(2,10,24,.42);
 }
 *{box-sizing:border-box} html{scroll-behavior:smooth}
 body{margin:0;background:var(--bg);color:var(--text);font-family:"DM Sans",sans-serif;line-height:1.65;transition:.25s}
@@ -40,7 +40,7 @@ a{color:inherit;text-decoration:none} button,input,select,textarea{font:inherit}
 footer{padding:28px 7vw;display:flex;justify-content:space-between;gap:20px;align-items:center;font-size:10px;color:var(--muted);border-top:1px solid var(--border)}.footer-brand strong{display:block;font:600 19px "Playfair Display";color:var(--text)}.footer-brand span{font-size:9px}.footer-links{display:flex;gap:20px}
 @media(max-width:950px){.desktop-nav,.header-cta{display:none}.menu-btn{display:block;border-radius:9px}.mobile-menu{position:fixed;top:78px;left:0;right:0;background:var(--surface);border-bottom:1px solid var(--border);padding:15px 7vw;z-index:19}.mobile-menu.open{display:flex;flex-direction:column}.mobile-menu a{padding:12px 0;border-bottom:1px solid var(--border)}
 .hero{grid-template-columns:1fr;padding-top:60px}.hero-visual{max-width:560px;margin:auto}.floating-card{left:15px}.intro-grid,.contact-box{grid-template-columns:1fr}.expert-grid{grid-template-columns:repeat(2,1fr)}.team-grid{grid-template-columns:1fr}.process-grid{grid-template-columns:repeat(2,1fr)}.news-grid{grid-template-columns:1fr}}
-@media(max-width:560px){.site-header{padding:0 4vw}.brand small{display:none}.hero,.section{padding-left:5vw;padding-right:5vw}.hero h1{font-size:45px}.hero-text{font-size:15px}.hero-actions .btn{width:100%}.trust-row{gap:15px;justify-content:space-between}.expert-grid{grid-template-columns:1fr}.lawyer-card{grid-template-columns:1fr}.lawyer-photo{height:330px}.process-grid{grid-template-columns:1fr}.process::before{display:none}.method-cta{align-items:flex-start;flex-wrap:wrap}.method-cta .btn-whatsapp{margin-left:62px}.contact{padding-top:75px}.contact-box form{padding:25px 19px}.form-header h3{font-size:22px}footer{flex-direction:column;align-items:flex-start}}
+@media(max-width:560px){.site-header{padding:0 4vw}.brand small{display:none}.hero,.section{padding-left:5vw;padding-right:5vw}.hero{display:flex;flex-direction:column;align-items:stretch;gap:0;min-height:auto;padding-top:42px;padding-bottom:60px}.hero-copy{display:contents}.hero-copy>*{width:100%}.hero-copy .eyebrow{order:1}.hero-copy h1{order:2}.hero-copy .hero-text{order:3}.hero-copy .hero-actions{order:4}.hero-copy .trust-row{order:5}.hero-copy .stats-row{order:6}.hero-visual{order:7}.hero h1{font-size:45px;margin-top:14px;margin-bottom:18px}.hero-text{font-size:15px}.hero-actions{margin:22px 0}.hero-actions .btn{width:100%}.trust-row{gap:15px;justify-content:space-between;margin-top:24px;padding-top:16px}.stats-row{display:flex;flex-direction:row;align-items:stretch;gap:10px;flex-wrap:nowrap;margin-top:20px;padding-top:16px}.stats-row .stat-item{display:block;flex:1 1 0;width:0;min-width:0;padding:12px 10px}.stat-value{font-size:34px}.stat-label{font-size:10px;letter-spacing:.7px;line-height:1.3}.hero-visual{margin-top:20px}.floating-card{left:auto;right:12px;bottom:12px;padding:10px 12px}.floating-card .scale{font-size:22px}.floating-card small{font-size:9px}.expert-grid{grid-template-columns:1fr}.lawyer-card{grid-template-columns:1fr}.lawyer-photo{height:330px}.process-grid{grid-template-columns:1fr}.process::before{display:none}.method-cta{align-items:flex-start;flex-wrap:wrap}.method-cta .btn-whatsapp{margin-left:62px}.contact{padding-top:75px}.contact-box form{padding:25px 19px}.form-header h3{font-size:22px}footer{flex-direction:column;align-items:flex-start}}
 
 /* Contact form refinement */
 .contact-box form {
@@ -114,7 +114,7 @@ footer{padding:28px 7vw;display:flex;justify-content:space-between;gap:20px;alig
 .reviews-subtitle {
     display: inline-block;
     margin-bottom: 12px;
-    color: #159447;
+    color: var(--gold);
     font-size: 13px;
     font-weight: 700;
     letter-spacing: 2px;
@@ -122,13 +122,13 @@ footer{padding:28px 7vw;display:flex;justify-content:space-between;gap:20px;alig
 
 .reviews-header h2 {
     margin: 0 0 15px;
-    color: #17221c;
+    color: var(--text);
     font-size: clamp(30px, 5vw, 46px);
 }
 
 .reviews-header p {
     margin: 0;
-    color: #6d7771;
+    color: var(--muted);
     line-height: 1.7;
 }
 
@@ -163,9 +163,10 @@ footer{padding:28px 7vw;display:flex;justify-content:space-between;gap:20px;alig
     background: var(--surface);
 
     border-radius: 28px;
+    border: 1px solid var(--border);
 
     box-shadow:
-        0 20px 60px rgba(0, 0, 0, .07);
+        0 20px 60px rgba(2, 10, 24, .12);
     position: relative;
 }
 

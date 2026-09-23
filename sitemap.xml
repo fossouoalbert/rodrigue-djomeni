@@ -40,4 +40,9 @@
     <loc>https://rodrigue-djomeni.vercel.app/article-consulter-avocat.html</loc>
     <priority>0.6</priority>
   </url>
+  <url><loc>https://rodrigue-djomeni.vercel.app/article-salaire-impaye-cameroun.html</loc><priority>0.8</priority></url>
+  <url><loc>https://rodrigue-djomeni.vercel.app/article-verifier-terrain-cameroun.html</loc><priority>0.8</priority></url>
+  <url><loc>https://rodrigue-djomeni.vercel.app/article-porter-plainte-cameroun.html</loc><priority>0.8</priority></url>
+  <url><loc>https://rodrigue-djomeni.vercel.app/article-escroquerie-cameroun.html</loc><priority>0.8</priority></url>
+  <url><loc>https://rodrigue-djomeni.vercel.app/article-divorce-cameroun.html</loc><priority>0.8</priority></url>
 </urlset>
