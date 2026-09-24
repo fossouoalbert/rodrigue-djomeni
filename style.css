@@ -330,3 +330,4 @@ footer{padding:28px 7vw;display:flex;justify-content:space-between;gap:20px;alig
     }
 
 }
+.news-grid article .news-image{display:block;width:100%;height:190px;object-fit:cover;border-radius:10px;margin:-4px 0 22px;border:1px solid var(--border)}
